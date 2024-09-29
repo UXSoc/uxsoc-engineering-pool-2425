@@ -12,12 +12,12 @@ This project lists down the members of UXSoc's Engineering Pool for the academic
     ```
     git clone https://github.com/UXSoc/uxsoc-engineering-pool-2425.git 
     ```
-- Branch out from main. Follow the following branch naming convention:
-    - If you are adding your card, follow: `[nickname][last 2 digits of student number]/addcard`. Example, `bryan77/addcard`.
-    - If you are adding a feature, follow our [Git Protocols](https://www.notion.so/Git-Protocols-221fae69d16841da8b35563916886135).
+- Branch out from main. Let's follow our [Git Protocol](https://www.notion.so/Git-Protocols-221fae69d16841da8b35563916886135?pvs=4#0814d4e7a4b04cbea79707521a7a2a71) for our branch naming convention.
+    - If you are adding your card, branch out from `staging` branch and follow this branch naming convention: `[nickname][last 2 digits of student number]/hotfix/add-card`. Example, `bryan77/add-card`.
+    - If you are adding a feature, communicate with the officers and follow our [Git Protocols](https://www.notion.so/Git-Protocols-221fae69d16841da8b35563916886135).
 - Push your changes to your own branch.
-- Pull request.
-    - If you are adding a card, pull request to `main`.
+- Submit a pull request.
+    - If you are adding a card, submit to `staging` branch.
 - Wait for the officers to accept your pull request.
 
 ## Additional Notes
