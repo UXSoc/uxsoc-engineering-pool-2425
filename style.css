@@ -3,7 +3,6 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #17141d;
   color: white;
   font-family: 'DM Mono', monospace;
   background-image: 
@@ -43,7 +42,7 @@ body {
   display: flex;
   position: relative;
   flex-direction: column;
-  height: 45vh;
+  height: 475px;
   width: 25vw;
   min-width: 275px;
   padding: 1.5rem;
@@ -58,9 +57,9 @@ body {
 
 .card:hover { scale: 1.07; }
 
-.card:hover~.card { transform: translateY(38vh); }
+.card:hover~.card { transform: translateY(375px); }
 
-.card:not(:first-child) { margin-top: -35vh; }
+.card:not(:first-child) { margin-top: -375px; }
 
 .flextwo { flex: 2; }
 .flexfour { flex: 4; }
