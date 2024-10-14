@@ -17,7 +17,6 @@ body {
 
 .card-list {
   display: flex;
-  height: 100vh;
   padding: 3rem;
   flex-direction: column;
   overflow-y: scroll;
@@ -57,9 +56,9 @@ body {
 
 .card:hover { scale: 1.07; }
 
-.card:hover~.card { transform: translateY(375px); }
+.card:hover~.card { transform: translateY(390px); }
 
-.card:not(:first-child) { margin-top: -375px; }
+.card:not(:first-child) { margin-top: -390px; }
 
 .flextwo { flex: 2; }
 .flexfour { flex: 4; }
