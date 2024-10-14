@@ -47,6 +47,7 @@ function toggleButton(btn, makeActive) {
       btn.style.borderColor = "#fff";
       btn.style.backgroundColor = "#E53935";
       btn.style.textShadow = "2px 2px 2px rgba(0, 0, 0, 0.7)";
+      if (btn.querySelector(".lie-explain")) btn.querySelector(".lie-explain").classList.remove('hidden')
     }
     btn.classList.add('active');
   }
@@ -55,5 +56,6 @@ function toggleButton(btn, makeActive) {
     btn.style.backgroundColor = "";
     btn.style.textShadow = "";
     btn.classList.remove('active');
+    if (btn.querySelector(".lie-explain")) btn.querySelector(".lie-explain").classList.add('hidden')
   }
 }

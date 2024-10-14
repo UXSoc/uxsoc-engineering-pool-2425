@@ -125,3 +125,9 @@ body {
   background-clip: text;
   border-color: rgb(71, 160, 228);
 }
+.hidden {
+  display: none;
+}
+.lie-explain {
+  text-decoration: underline;
+}
