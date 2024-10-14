@@ -1,6 +1,11 @@
 # Engineering Pool A.Y. 2024-2025
-## Description
-This project lists down the members of UXSoc's Engineering Pool for the academic year 2024-2025. This also serves as the members' first hands-on practice on using GitHub.
+
+<h3 align="center">
+    🧑‍💻 Visit the site: <a href="https://uxsoc.github.io/uxsoc-engineering-pool-2425/" target="_blank">UXS Engineering Pool A.Y. 2024-2025 </a> 🧑‍💻
+</h3>
+
+
+This website lists down the members of UXSoc's Engineering Pool for the academic year 2024-2025. This also serves as the members' first hands-on practice on using GitHub.
 
 ## What to Contribute
 - __Add your own card__. A template is commented out in the HTML file. It is part of your practice to know what to edit/copy/paste.
