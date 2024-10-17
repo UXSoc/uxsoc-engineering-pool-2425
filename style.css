@@ -41,8 +41,9 @@ body {
   display: flex;
   position: relative;
   flex-direction: column;
-  height: 475px;
-  width: 25vw;
+  max-width: 80vw;
+  width: 30em;
+  height: 30em;
   min-width: 275px;
   padding: 1.5rem;
 
