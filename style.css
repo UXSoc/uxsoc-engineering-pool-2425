@@ -49,15 +49,21 @@ body {
 
   border-radius: 16px;
   background: rgb(18, 37, 67);
-  box-shadow: 0 0 2rem rgb(0, 0, 0, 0.7);
+  box-shadow: 0 0 2rem rgb(0, 0, 0, 0.6);
 
   transition: .3s;
   transition-timing-function: cubic-bezier(.25,1.38,.62,.94);
 }
 
-.card:hover { scale: 1.07; }
-
+.card:hover { 
+  scale: 1.07;
+  filter: brightness(1);
+  box-shadow: 0 0 3rem rgb(0, 0, 0, 0.3);
+}
 .card:hover~.card { transform: translateY(390px); }
+.card-list:has(.card:hover) .card:not(.card:hover) {
+  filter: brightness(0.75);
+}
 
 .card:not(:first-child) { margin-top: -390px; }
 
