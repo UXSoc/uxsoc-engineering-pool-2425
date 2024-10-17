@@ -102,7 +102,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-    align-content: flex-end;
+    align-content: center;
 }
 
 .socials a {
