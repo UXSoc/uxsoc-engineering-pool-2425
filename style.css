@@ -52,7 +52,7 @@ body {
   box-shadow: 0 0 2rem rgb(0, 0, 0, 0.7);
 
   transition: .3s;
-  transition-timing-function: ease;
+  transition-timing-function: cubic-bezier(.25,1.38,.62,.94);
 }
 
 .card:hover { scale: 1.07; }
