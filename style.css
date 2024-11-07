@@ -8,7 +8,7 @@ body {
   background-image: 
     linear-gradient(rgba(0, 0, 0, 0.05) 2.5px, transparent 3px),
     linear-gradient(90deg, rgba(0, 0, 0, 0.05) 2.5px, transparent 3px),
-    radial-gradient(circle at 48.7% 44.3%, rgb(30, 144, 231) 0%, rgb(56, 113, 209) 22.9%, rgb(38, 76, 140) 76.7%, rgb(31, 63, 116) 100.2%);
+    radial-gradient(circle at 48.7% 44.3%, rgb(30, 144, 231) -1.5%, rgb(56, 113, 209) 50%, rgb(38, 76, 140) 101.5%);
   background-size: 
     40px 40px,
     40px 40px,
